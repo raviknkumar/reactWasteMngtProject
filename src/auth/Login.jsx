@@ -5,10 +5,9 @@ import {NavLink, withRouter} from 'react-router-dom';
 import './Login.css'
 import Nav from "../components/Nav";
 import {Button} from "react-bootstrap";
-import { AppUser, createUserUrl} from "../api/EndPoints"
+import { AppUser, createUserUrl } from "../api/EndPoints"
 import axios from "axios"
 import User from "./User";
-import MappleToolTip from "reactjs-mappletooltip"
 
 async function verifyPassword(user) {
     return axios.post(AppUser.baseURL + AppUser.verifyPassword, user);
