@@ -1,0 +1,18 @@
+.dropdown-menu
+{
+    width: max-content;
+    font-style: italic;
+    padding-right: 5px;
+    white-space: normal;
+    float: right;
+}
+
+.dropdown-toggle, .dropdown-toggle:hover, .dropdown-toggle:focus{
+    background-color : #FFFFFF ;
+    color: black;
+    width: max-content;
+    text-transform: none;
+    border: none;
+    margin-right: 50px;
+    z-index: 0;
+}

@@ -1,0 +1,39 @@
+.vertical-center {
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.horizontal-center
+{
+    position: absolute;
+    /*top: 25%;*/
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+Button {
+    width: 50%;
+    outline: 0;
+    border:none;
+    color: white;
+    font-size: 18px;
+    font-weight: 200;
+    cursor: pointer;
+    transition: box-shadow .4s ease;
+}
+.roundedSubmit{
+    border-radius: 40px;
+}
+
+.form{
+    border: 2px solid black;
+}
+
+field{
+    margin-right: 10px;
+    width: 95%;
+}
+
+
