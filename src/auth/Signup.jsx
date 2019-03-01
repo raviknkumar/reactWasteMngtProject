@@ -1,7 +1,7 @@
 import React from 'react'
 import * as Yup from 'yup';
 import {withFormik, Form, Field, ErrorMessage} from 'formik';
-import {Button, FormLabel} from 'react-bootstrap'
+import {Button} from 'react-bootstrap'
 import Nav from "../components/Nav";
 import {validateEmailUrl, createUserUrl} from "../api/EndPoints"
 import User from './User.js';
@@ -25,7 +25,7 @@ function signUp(User){
 }
 
 function Signup(props) {
-    let {isSubmitting} = props;
+    let {isSubmitting /*,errors*/} = props;
     return (
         <div>
             <Nav/>
@@ -64,7 +64,7 @@ function Signup(props) {
                         <label htmlFor="form_confirm_password">Confirm Password</label>
                     </div>
                     <div className={"center"}>
-                        <Button size="small" className="roundedSubmit">
+                        <Button size="small" className="roundedSubmit" disabled={isSubmitting}>
                             <i className="material-icons right">send</i> Sign Up
                         </Button>
                     </div>

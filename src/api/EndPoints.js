@@ -16,8 +16,14 @@ export const createUserUrl = ()=>{
 export const AppUser = {
     baseURL:"http://127.0.0.1:8080",
     verifyPassword:"/user/verifyPassword"
-}
+};
 
+export const DustbinRestController = {
+    baseURL:"http://127.0.0.1:8080",
+    addUrl:"/dustbin/add",
+    getAllUrl:"/dustbin/all",
+    findByDateUrl:"/dustbin/findByDate"
+};
 
 
 

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import {BrowserRouter, Route, Switch} from "react-router-dom";
+import {BrowserRouter, Redirect, Route, Switch} from "react-router-dom";
 import Login from "./auth/Login";
 import SignUp from "./auth/Signup";
 import Home from './components/Home'
@@ -13,7 +13,12 @@ class App extends Component {
             <Route path={"/"} exact component={Login}/>
             <Route path={"/login"} component={Login}/>
             <Route path={"/signup"} component={SignUp}/>
-            <Route path={"/home"} component={Home}/>
+            {/* <Route path={"/home"}component={Home} />*/}
+              <Route path={"/home"} render={props => (
+                  localStorage.getItem('userName')!==null
+                      ? <Home {...props}/>
+                      : <Redirect to={{ pathname: '/login', state: { from: props.location } }} />
+              )} />
           </div>
         </BrowserRouter>
     );

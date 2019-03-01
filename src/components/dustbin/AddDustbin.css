@@ -1,0 +1,56 @@
+.bg-purple {
+    background: #d3dce6;
+}
+
+.grid-content{
+    border-radius: 4px;
+    min-height: 36px;
+    margin-right: 20px;
+}
+
+.selectBox {
+    display: inline-block;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.datePicker{
+    border-radius: 4px;
+    border: 1px solid black;
+    font-size: 1.2rem;
+    /*display: block;*/
+    -webkit-box-sizing: border-box;
+    font-family: 'PT Sans', sans-serif;
+    background-color: #3CBC8D;
+    color: #606266;
+    line-height: 40px;
+    outline: 0;
+    width: 100%;
+}
+
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+
+.col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+
+.row{
+   margin: 10px;
+    clear: both;
+}
+
+.blackBorder{
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+input[type=number]{
+    background: #FFFFFF;
+}

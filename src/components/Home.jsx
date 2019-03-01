@@ -9,6 +9,7 @@ import Dashboard from "./Dashboard";
 import GenerateRoutes from "./vehicles/GenerateRoutes";
 import DustbinStatus from "./dustbin/DustbinStatus";
 import {signUpUrl} from "../api/EndPoints";
+import AddDustbin from "./dustbin/AddDustbin";
 
 class Home extends Component{
 
@@ -29,9 +30,20 @@ class Home extends Component{
                     to: '/home/dashboard',
                 },
                 {
-                    icon: 'fas fa-info-circle',
-                    label: 'DustbinStatus',
-                    to: '/home/dustbinStatus',
+                    icon: 'fas fa-trash',
+                    label: 'Dustbin',
+                    content: [
+                        {
+                            icon: 'fas fa-plus',
+                            label: 'Add Dustbin Status',
+                            to: `/home/dustbin/add`
+                        },
+                        {
+                            icon: 'fas fa-info-circle',
+                            label: 'View Status',
+                            to: '/home/dustbin/status',
+                        }
+                    ]
                 },
                 {
                     icon: 'far fa-route',
@@ -61,7 +73,8 @@ class Home extends Component{
                             <div style={{marginTop:"6%"}}>
                             <Route path={`${this.match.path}/dashboard`} exact component={Dashboard}/>
                             <Route path={`${this.match.path}/generateRoutes`} exact component={GenerateRoutes}/>
-                            <Route path={`${this.match.path}/dustbinStatus`} exact component={DustbinStatus}/>
+                            <Route path={`${this.match.path}/dustbin/add`} exact component={AddDustbin}/>
+                            <Route path={`${this.match.path}/dustbin/status`} exact component={DustbinStatus}/>
                             </div>
                     </div>
                 </div>

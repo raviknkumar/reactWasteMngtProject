@@ -21,9 +21,15 @@ class CustomDropDown extends Component
         return(
             <DropdownButton className="right" id="dropdown-basic-button" title={localStorage.getItem("userName")}
                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <Dropdown.Item className="cl" href="#/action-1">View Profile</Dropdown.Item>
+                <Dropdown.Item className="cl" href="/viewProfile">
+                    <i className="fa fa-id-card fa-lg" style={{color:"#2874f0", fontSize: "1.5em"}} aria-hidden="true"></i>
+                    &nbsp; View Profile
+                </Dropdown.Item>
                 <Dropdown.Divider/>
-                <Dropdown.Item onClick={this.handleClick} href="/">Logout</Dropdown.Item>
+                <Dropdown.Item onClick={this.handleClick} href="/">
+                    <i className="fa fa-sign-out-alt" style={{color:"#2874f0", fontSize: "1.5em"}} aria-hidden="true"></i>
+                    &nbsp; Logout
+                </Dropdown.Item>
             </DropdownButton>
         );
     }

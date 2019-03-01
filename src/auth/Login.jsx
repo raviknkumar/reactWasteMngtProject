@@ -5,7 +5,7 @@ import {NavLink, withRouter} from 'react-router-dom';
 import './Login.css'
 import Nav from "../components/Nav";
 import {Button} from "react-bootstrap";
-import { AppUser, createUserUrl } from "../api/EndPoints"
+import { AppUser, createUserUrl} from "../api/EndPoints"
 import axios from "axios"
 import User from "./User";
 
@@ -104,8 +104,7 @@ const formikApp = withFormik({
             })
         setSubmitting(false);
     },
-            validationSchema
-    :
+    validationSchema:
         Yup.object().shape({
             email: Yup.string('email is invalid').required('email is required'),
             password: Yup.string().min(4, 'password must be atleast 4 characters').required('password is required')
