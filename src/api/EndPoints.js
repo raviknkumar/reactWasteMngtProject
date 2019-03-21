@@ -1,7 +1,3 @@
-export const logisticBaseUrl = () =>{
-    return "ipConfig.ip.logistic.prod;"
-};
-
 export const signUpUrl = ()=>{
     return "http://localhost:3001/signUp";
 };
@@ -22,8 +18,15 @@ export const DustbinRestController = {
     baseURL:"http://127.0.0.1:8080",
     addUrl:"/dustbin/add",
     getAllUrl:"/dustbin/all",
-    findByDateUrl:"/dustbin/findByDate"
+    findByDateUrl:"/dustbin/findByDate",
+    findStatsInfoUrl:"/dustbin/stats",
+    generateRoutesUrl:"/dustbin/solve"
 };
+
+export const VehicleController ={
+    baseURL:"http://127.0.0.1:8080",
+    fetchVehicleInfoUrl : "/vehicle/getRoutes"
+}
 
 
 

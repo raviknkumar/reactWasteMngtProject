@@ -4,8 +4,8 @@ import Button from "react-bootstrap/Button";
 import axios from "axios";
 import Dustbin from "./Dustbin"
 import {DustbinRestController} from "../../api/EndPoints"
-/* import SweetAlert from "sweetalert2-react" */
-import 'sweetalert2/src/sweetalert2.scss'
+import 'sweetalert2/dist/sweetalert2.min.css'
+import 'sweetalert2/dist/sweetalert2.all.min.js'
 import SweetAlert from "sweetalert2-react"
 
 

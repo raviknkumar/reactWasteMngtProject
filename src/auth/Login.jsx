@@ -5,7 +5,7 @@ import {NavLink, withRouter} from 'react-router-dom';
 import './Login.css'
 import Nav from "../components/Nav";
 import {Button} from "react-bootstrap";
-import { AppUser, createUserUrl} from "../api/EndPoints"
+import { AppUser } from "../api/EndPoints"
 import axios from "axios"
 import User from "./User";
 
@@ -37,7 +37,7 @@ class Login extends React.Component {
             <div>
                 <Nav/>
                 <div className="container vertical-center horizontal-center">
-                    <h4 center style={{fontFamily: "Acme", color: "green"}}>Make Our Environment Clean And Green</h4>
+                    <h4 className={"center"} style={{fontFamily: "Acme", color: "green"}}>Make Our Environment Clean And Green</h4>
                     <div className="white form">
                         <Form>
                             <div className="input-field col s6 text">
@@ -99,7 +99,7 @@ const formikApp = withFormik({
                 else {
                     resetForm();
                     localStorage.setItem('userName', values.email);
-                    values.history.push("/home");
+                    values.history.push("/home/index");
                 }
             })
         setSubmitting(false);

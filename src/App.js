@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import './App.css';
-import {BrowserRouter, Redirect, Route, Switch} from "react-router-dom";
+import {BrowserRouter, Redirect, Route} from "react-router-dom";
 import Login from "./auth/Login";
 import SignUp from "./auth/Signup";
 import Home from './components/Home'
-import Dashboard from "./components/Dashboard";
+
 class App extends Component {
   render() {
     return (

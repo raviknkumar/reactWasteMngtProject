@@ -1,11 +1,10 @@
 import React, {Component} from 'react'
 import './DustbinStatus.css'
 import DustbinList from "./DustbinList";
-import {Alert, Button} from 'react-bootstrap'
+import {Button, Table} from 'react-bootstrap'
 import axios from 'axios'
 import {DustbinRestController} from "../../api/EndPoints"
 import SweetAlert from "sweetalert2-react"
-import ReactTable from "react-table"
 
 
 class DustbinStatus extends Component
@@ -14,7 +13,8 @@ class DustbinStatus extends Component
         date:null,
         data:[],
         show:false,
-        valid:true
+        valid:true,
+        title: "",
     };
 
     handleDataChange = (e)=>
@@ -55,13 +55,12 @@ class DustbinStatus extends Component
         return(
             <div>
                 {
-                    this.state.show &&
-                    <Alert dismissible variant="danger">
-                        <Alert.Heading>Oh snap! Error Encountered!</Alert.Heading>
-                        <p>
-                            {this.state.errorMessage}
-                        </p>
-                    </Alert>
+                    <SweetAlert
+                        show={this.state.show}
+                        title={"Oh snap! Error Encountered!"}
+                        type= {"error"}
+                        text= {this.state.errorMessage}
+                    />
                 }
                 <SweetAlert
                     show={!this.state.valid}
@@ -92,14 +91,19 @@ class DustbinStatus extends Component
                         </Button>
                     </div>
                 </div>
-                <div className={"row section"}>
-                     <div className={"col s2 m2 l2"}>Id</div>
-                     <div className={"col s3 m3 l3"}>Latitude </div>
-                     <div className={"col s3 m3 l3"}>Longitude</div>
-                     <div className={"col s3 m3 l3"}>Fill Amount</div>
+                <div style={{marginTop:"5px", border:"1px solid grey"}}>
+                    <Table responsive={true} striped hover size={"sm"}>
+                        <thead>
+                        <tr>
+                            <th>Id</th>
+                            <th>Latitude</th>
+                            <th>Longitude</th>
+                            <th>Fill Amount</th>
+                        </tr>
+                        </thead>
+                        <DustbinList dustbinNodes={this.state.data}/>
+                    </Table>
                 </div>
-                <div className={"divider"}/>
-                    <DustbinList dustbinNodes={this.state.data}/>
             </div>
         );
     }

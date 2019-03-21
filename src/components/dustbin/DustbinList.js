@@ -1,7 +1,5 @@
 import React, {Component} from 'react'
-import DustbinComponent from "./DustbinComponent";
 import ReactPaginate from 'react-paginate'
-import axios from 'axios'
 import "./DustbinList.css"
 class DustbinList extends Component{
 
@@ -9,7 +7,7 @@ class DustbinList extends Component{
     state={data:[],
         /*offset: 0,*/
         perPage : 10,
-        pageCount:4
+        pageCount:1
     };
 
     constructor(props)
@@ -19,10 +17,10 @@ class DustbinList extends Component{
         this.state.data = this.props.dustbinNodes;
     }
 
-
     componentWillReceiveProps(nextProps){
         this.setState({
-            data: nextProps.dustbinNodes
+            data: nextProps.dustbinNodes,
+            pageCount:nextProps.dustbinNodes.length/this.state.perPage
         }, () => {
             this.handlePageClick({selected:0});
         });
@@ -35,12 +33,12 @@ class DustbinList extends Component{
     mapStateDataToDustbinNodes(offset)
     {
         this.dustbinNodes = this.state.data.slice(offset,offset+this.state.perPage).map(function(dustbin, index) {
-            return <div key={index} className={"row"}>
-                <div className={"col s3 m3 l3"}>{dustbin.dustbinId+" "}</div>
-                <div className={"col s3 m3 l3"}>{dustbin.latitude+" "}</div>
-                <div className={"col s3 m3 l3"}>{dustbin.longitude+" "}</div>
-                <div className={"col s3 m3 l3"}>{dustbin.fillAmount+" "}</div>
-            </div>;
+            return <tr key={index}>
+                <td>{dustbin.dustbinId}</td>
+                <td>{dustbin.latitude}</td>
+                <td>{dustbin.longitude}</td>
+                <td>{dustbin.fillAmount}</td>
+            </tr>
         })
     }
 
@@ -55,20 +53,27 @@ class DustbinList extends Component{
 
         this.dustbinNodes = []
         this.dustbinNodes = this.state.data.slice(offset,offset+this.state.perPage).map(function(dustbin, index) {
-            return <div key={index} className={"row"}>
+            return <tr>
+                <td>{dustbin.dustbinId}</td>
+                <td>{dustbin.latitude}</td>
+                <td>{dustbin.longitude}</td>
+                <td>{dustbin.fillAmount}</td>
+            </tr>
+                /*<div key={index} className={"row"}>
                 <div className={"col s3 m3 l3"}>{dustbin.dustbinId+" "}</div>
-                <div className={"col s3 m3 l3"}>{dustbin.latitude+" "}</div>
-                <div className={"col s3 m3 l3"}>{dustbin.longitude+" "}</div>
-                <div className={"col s3 m3 l3"}>{dustbin.fillAmount+" "}</div>
-            </div>;
+        <div className={"col s3 m3 l3"}>{dustbin.latitude+" "}</div>
+        <div className={"col s3 m3 l3"}>{dustbin.longitude+" "}</div>
+        <div className={"col s3 m3 l3"}>{dustbin.fillAmount+" "}</div>
+        </div>;*/
         })
         //console.log(this.dustbinNodes)
     };
 
     render() {
         return(
-            <div className="commentList">
-                <ul>{this.dustbinNodes}</ul>
+            <tbody>
+                {this.dustbinNodes}
+                <div style={{background:"#fff",marginTop:"10px"}}>
                 <ReactPaginate
                     previousLabel="❮"
                     nextLabel="❯"
@@ -83,7 +88,8 @@ class DustbinList extends Component{
                     activeClassName={'active'}
                     initialPage={0}
                 />
-            </div>
+                </div>
+            </tbody>
         );
     }
 }

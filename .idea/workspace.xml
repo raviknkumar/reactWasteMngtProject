@@ -10,12 +10,17 @@
       <change beforePath="$PROJECT_DIR$/src/api/EndPoints.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/EndPoints.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/auth/Login.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/auth/Login.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/auth/Signup.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/auth/Signup.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CustomDropDown.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CustomDropDown.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Home.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Dashboard.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dashboard.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Dashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dashboard.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/dustbin/Dustbin.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/dustbin/DustbinComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/dustbin/AddDustbin.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/dustbin/AddDustbin.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/dustbin/DustbinList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/dustbin/DustbinList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/dustbin/DustbinStatus.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/dustbin/DustbinStatus.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/dustbin/DustbinStatus.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/dustbin/DustbinStatus.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/vehicles/GenerateRoutes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/vehicles/GenerateRoutes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/vehicles/Vehicle.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/vehicles/VehicleComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/vehicles/VehicleInfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/vehicles/VehicleInfo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/creativeTim/CustomButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/creativeTim/components/CustomButton.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -29,24 +34,33 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/auth/Signup.jsx">
+        <entry file="file://$PROJECT_DIR$/src/components/vehicles/GenerateRoutes.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+            <state relative-caret-position="459">
+              <caret line="32" selection-start-line="32" selection-end-line="32" />
               <folding>
-                <element signature="e#0#25#0" expanded="true" />
+                <element signature="e#0#38#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/auth/Login.jsx">
+        <entry file="file://$PROJECT_DIR$/src/components/vehicles/Vehicle.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1343">
-              <caret line="88" column="24" selection-start-line="88" selection-start-column="24" selection-end-line="88" selection-end-column="24" />
+            <state>
+              <caret column="14" selection-start-column="14" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/vehicles/VehicleInfo.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="89">
+              <caret line="70" column="53" selection-start-line="70" selection-start-column="53" selection-end-line="70" selection-end-column="53" />
               <folding>
-                <element signature="e#0#25#0" expanded="true" />
+                <element signature="e#0#38#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -55,31 +69,19 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/api/EndPoints.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="17" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/components/dustbin/DustbinStatus.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="62" column="28" lean-forward="true" selection-start-line="62" selection-start-column="28" selection-end-line="62" selection-end-column="28" />
-              <folding>
-                <element signature="e#0#38#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="459">
+              <caret line="27" column="45" selection-start-line="27" selection-start-column="45" selection-end-line="27" selection-end-column="45" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/App.js">
+        <entry file="file://$PROJECT_DIR$/src/components/Home.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="17" column="51" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
+            <state relative-caret-position="1139">
+              <caret line="79" column="102" selection-start-line="79" selection-start-column="102" selection-end-line="79" selection-end-column="102" />
               <folding>
-                <element signature="e#0#41#0" expanded="true" />
+                <element signature="e#0#38#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -88,8 +90,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/dustbin/DustbinList.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1020">
-              <caret line="64" column="10" selection-start-line="64" selection-start-column="10" selection-end-line="64" selection-end-column="10" />
+            <state relative-caret-position="17">
+              <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
               </folding>
@@ -98,15 +100,20 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Home.jsx">
+        <entry file="file://$PROJECT_DIR$/src/components/dustbin/DustbinStatus.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1003">
-              <caret line="70" column="40" selection-start-line="70" selection-start-column="40" selection-end-line="70" selection-end-column="40" />
+            <state relative-caret-position="1700">
+              <caret line="106" column="18" selection-start-line="55" selection-start-column="12" selection-end-line="106" selection-end-column="18" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/vehicles/VehicleComponent.js">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -131,10 +138,21 @@
       <find>border: 1px solid</find>
       <find>pointe</find>
       <find>DustbinCom</find>
+      <find>react-boo</find>
+      <find>assets/jss/material-dashboard-react</find>
+      <find>body</find>
+      <find>TableCell</find>
+      <find>td</find>
+      <find>purple</find>
+      <find>Ale</find>
+      <find>error</find>
+      <find>validate</find>
+      <find>xs</find>
     </findStrings>
     <replaceStrings>
       <replace>className=</replace>
       <replace>Login</replace>
+      <replace>TableCell</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -148,7 +166,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/auth/login.jsx" />
         <option value="$PROJECT_DIR$/src/auth/Navbar.js" />
         <option value="$PROJECT_DIR$/src/auth/Nav.js" />
         <option value="$PROJECT_DIR$/src/index.css" />
@@ -158,16 +175,10 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/creativeTim/CustomDropdown" />
         <option value="$PROJECT_DIR$/src/creativeTim/CustomDropDown" />
-        <option value="$PROJECT_DIR$/src/components/Dashboard.css" />
         <option value="$PROJECT_DIR$/src/components/CustomDropDown.css" />
-        <option value="$PROJECT_DIR$/src/components/Dashboard.js" />
         <option value="$PROJECT_DIR$/node_modules/react-bootstrap-date-picker/lib/index.js" />
-        <option value="$PROJECT_DIR$/src/components/dustbin/DustbinStatus.css" />
         <option value="$PROJECT_DIR$/src/components/GenerateRoutes.css" />
         <option value="$PROJECT_DIR$/src/components/GenerateRoutes.js" />
-        <option value="$PROJECT_DIR$/src/components/vehicles/GenerateRoutes.js" />
-        <option value="$PROJECT_DIR$/src/components/vehicles/Vehicle.js" />
-        <option value="$PROJECT_DIR$/src/components/vehicles/VehicleInfo.js" />
         <option value="$PROJECT_DIR$/src/components/serverRequest/requestEndPoints.js" />
         <option value="$PROJECT_DIR$/src/api/requests.js" />
         <option value="$PROJECT_DIR$/src/auth/User.js" />
@@ -175,20 +186,37 @@
         <option value="$PROJECT_DIR$/src/components/Nav.js" />
         <option value="$PROJECT_DIR$/src/components/dustbin/DustbinList.css" />
         <option value="$PROJECT_DIR$/src/auth/Login.css" />
-        <option value="$PROJECT_DIR$/src/auth/Login.jsx" />
         <option value="$PROJECT_DIR$/src/components/dustbin/AddDustbin.css" />
-        <option value="$PROJECT_DIR$/src/api/EndPoints.js" />
-        <option value="$PROJECT_DIR$/src/auth/Signup.jsx" />
         <option value="$PROJECT_DIR$/src/components/dustbin/DustbinComponent.js" />
         <option value="$PROJECT_DIR$/src/components/dustbin/Dustbin.js" />
-        <option value="$PROJECT_DIR$/public/index.html" />
-        <option value="$PROJECT_DIR$/src/components/Home.jsx" />
         <option value="$PROJECT_DIR$/src/components/Home.css" />
-        <option value="$PROJECT_DIR$/src/components/dustbin/AddDustbin.js" />
         <option value="$PROJECT_DIR$/src/components/CustomDropDown.js" />
         <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/src/creativeTim/components/Card/Card.jsx" />
+        <option value="$PROJECT_DIR$/src/creativeTim/components/Card/CardIcon.jsx" />
+        <option value="$PROJECT_DIR$/src/creativeTim/components/Card/CardAvatar.jsx" />
+        <option value="$PROJECT_DIR$/src/creativeTim/components/Card/CardBody.jsx" />
+        <option value="$PROJECT_DIR$/src/creativeTim/components/Card/CardFooter.jsx" />
+        <option value="$PROJECT_DIR$/src/creativeTim/components/Card/CardHeader.jsx" />
+        <option value="$PROJECT_DIR$/src/creativeTim/assets/jss/material-kit-react/components/cardIconStyle.jsx" />
+        <option value="$PROJECT_DIR$/src/components/Dashboard.css" />
         <option value="$PROJECT_DIR$/src/components/dustbin/DustbinList.js" />
         <option value="$PROJECT_DIR$/src/components/dustbin/DustbinStatus.js" />
+        <option value="$PROJECT_DIR$/src/components/vehicles/Main.css" />
+        <option value="$PROJECT_DIR$/src/components/Main.js" />
+        <option value="$PROJECT_DIR$/src/components/dustbin/DustbinStatus.css" />
+        <option value="$PROJECT_DIR$/public/index.html" />
+        <option value="$PROJECT_DIR$/src/components/dustbin/AddDustbin.js" />
+        <option value="$PROJECT_DIR$/src/auth/Login.jsx" />
+        <option value="$PROJECT_DIR$/src/auth/Signup.jsx" />
+        <option value="$PROJECT_DIR$/src/components/Dashboard.js" />
+        <option value="$PROJECT_DIR$/src/components/vehicles/GenerateRoutes.js" />
+        <option value="$PROJECT_DIR$/src/components/vehicles/Route.js" />
+        <option value="$PROJECT_DIR$/src/components/vehicles/VehicleComponent.js" />
+        <option value="$PROJECT_DIR$/src/components/vehicles/Vehicle.js" />
+        <option value="$PROJECT_DIR$/src/components/Home.jsx" />
+        <option value="$PROJECT_DIR$/src/api/EndPoints.js" />
+        <option value="$PROJECT_DIR$/src/components/vehicles/VehicleInfo.js" />
       </list>
     </option>
   </component>
@@ -252,7 +280,63 @@
               <item name="waste-management" type="b2602c69:ProjectViewProjectNode" />
               <item name="waste-management" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="vehicles" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="waste-management" type="b2602c69:ProjectViewProjectNode" />
+              <item name="waste-management" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="creativeTim" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="waste-management" type="b2602c69:ProjectViewProjectNode" />
+              <item name="waste-management" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="creativeTim" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="waste-management" type="b2602c69:ProjectViewProjectNode" />
+              <item name="waste-management" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="creativeTim" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="jss" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="waste-management" type="b2602c69:ProjectViewProjectNode" />
+              <item name="waste-management" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="creativeTim" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="jss" type="462c0819:PsiDirectoryNode" />
+              <item name="material-kit-react" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="waste-management" type="b2602c69:ProjectViewProjectNode" />
+              <item name="waste-management" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="creativeTim" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="jss" type="462c0819:PsiDirectoryNode" />
+              <item name="material-kit-react" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="waste-management" type="b2602c69:ProjectViewProjectNode" />
+              <item name="waste-management" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="creativeTim" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="waste-management" type="b2602c69:ProjectViewProjectNode" />
+              <item name="waste-management" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="creativeTim" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="Card" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -279,10 +363,15 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\react\waste-management\src\components\vehicles" />
       <recent name="F:\react\waste-management\src\components" />
+      <recent name="F:\react\waste-management\src\creativeTim\components" />
+      <recent name="F:\react\waste-management\src\components\vehicles" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\react\waste-management\src\creativeTim\assets\jss\material-kit-react\components" />
+      <recent name="F:\react\waste-management\src\creativeTim" />
+      <recent name="F:\react\waste-management\src\creativeTim\components" />
+      <recent name="F:\react\waste-management\src\components" />
       <recent name="F:\react\waste-management\src" />
     </key>
   </component>
@@ -337,6 +426,20 @@
       <workItem from="1551274797710" duration="18302000" />
       <workItem from="1551337448084" duration="1893000" />
       <workItem from="1551349054850" duration="1296000" />
+      <workItem from="1551595815253" duration="1506000" />
+      <workItem from="1551718114456" duration="1194000" />
+      <workItem from="1551765018802" duration="22000" />
+      <workItem from="1552137861877" duration="2056000" />
+      <workItem from="1552497219775" duration="12329000" />
+      <workItem from="1552585572065" duration="12337000" />
+      <workItem from="1552762962096" duration="11470000" />
+      <workItem from="1552814621404" duration="1206000" />
+      <workItem from="1552912712843" duration="2516000" />
+      <workItem from="1552930151800" duration="680000" />
+      <workItem from="1552931648703" duration="278000" />
+      <workItem from="1552937204560" duration="3803000" />
+      <workItem from="1553001334277" duration="2779000" />
+      <workItem from="1553010417203" duration="5585000" />
     </task>
     <task id="LOCAL-00001" summary="login changes">
       <created>1551116835493</created>
@@ -349,11 +452,19 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="138649000" />
+    <option name="totallyTimeSpent" value="196410000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info id="npm" order="1" side_tool="true" />
@@ -365,11 +476,11 @@
       <window_info anchor="bottom" id="Docker" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" weight="0.32850242" />
-      <window_info anchor="bottom" id="Run" order="6" weight="0.23510467" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.39130434" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.3993559" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="bottom" id="TODO" order="10" weight="0.32850242" />
       <window_info anchor="bottom" id="TypeScript" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -424,182 +535,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="login changes" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/auth/Navbar.js" />
-    <entry file="file://$PROJECT_DIR$/src/components/CustomSelect.css" />
-    <entry file="file://$PROJECT_DIR$/src/creativeTim/CustomButton.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1309">
-          <caret line="77" selection-start-line="77" selection-end-line="77" />
-          <folding>
-            <element signature="e#228#289#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/CustomSelect.js" />
-    <entry file="file://$PROJECT_DIR$/node_modules/react-metismenu/lib/index.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Dashboard.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Dashboard.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/NodeJS/lib/NodeJS.jar!/com/jetbrains/nodejs/packageJson/packageJsonSchema.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="32" column="6" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/react-bootstrap/es/FormControl.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/react-bootstrap-date-picker/lib/index.js" />
-    <entry file="file://$PROJECT_DIR$/src/components/CustomDropDown.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/vehicles/GenerateRoutes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="12" column="54" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="54" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/vehicles/VehicleInfo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="42" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/vehicles/Vehicle.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/vehicles/GenerateRoutes.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/serverRequest/requestEndPoints.js" />
-    <entry file="file://$PROJECT_DIR$/node_modules/react-bootstrap/es/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="48" column="17" selection-start-line="48" selection-start-column="7" selection-end-line="48" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/jss/material-kit-react/views/loginPage.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1062" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Nav.css" />
-    <entry file="file://$PROJECT_DIR$/src/auth/Signup.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" selection-start-line="25" selection-end-line="27" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Nav.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="80" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="80" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/assets/scss/material-kit-react.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="197">
           <caret line="209" column="2" selection-start-line="209" selection-start-column="2" selection-end-line="209" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/auth/Login.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" column="10" selection-start-line="34" selection-start-column="10" selection-end-line="34" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/api/requests.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/@types/react/index.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="1901" column="8" selection-start-line="1901" selection-start-column="8" selection-end-line="1901" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/dustbin/AddDustbin.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/dustbin/DustbinStatus.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
@@ -610,38 +549,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/dustbin/DustbinList.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-103">
-          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/sweetalert2-react/lib/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="40" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="46" column="73" selection-start-line="46" selection-start-column="73" selection-end-line="46" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/dustbin/Dustbin.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -676,21 +587,210 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/dustbin/AddDustbin.js">
+    <entry file="file://$PROJECT_DIR$/src/App.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="119" column="26" lean-forward="true" selection-start-line="105" selection-start-column="20" selection-end-line="119" selection-end-column="26" />
+        <state relative-caret-position="230">
+          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/jss/material-kit-react/views/loginPage.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1322" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/auth/Signup.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="25" selection-start-line="25" selection-end-line="27" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="18" column="14" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/react-bootstrap/es/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="26" column="20" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/creativeTim/components/GridContainer.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/creativeTim/assets/css/material-dashboard-react.css" />
+    <entry file="file://$PROJECT_DIR$/src/creativeTim/components/Card/Card.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="70" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/creativeTim/components/Card/CardIcon.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="74" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/creativeTim/components/Card/CardAvatar.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="76" selection-start-line="10" selection-start-column="76" selection-end-line="10" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/creativeTim/components/Card/CardBody.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="74" selection-start-line="10" selection-start-column="74" selection-end-line="10" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/creativeTim/components/Card/CardFooter.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="76" selection-start-line="10" selection-start-column="76" selection-end-line="10" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/creativeTim/components/Card/CardHeader.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="76" selection-start-line="10" selection-start-column="76" selection-end-line="10" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/creativeTim/assets/jss/material-kit-react/components/cardIconStyle.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-17">
+          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/react.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="1150" column="30" selection-start-line="1150" selection-start-column="29" selection-end-line="1150" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/dustbin/AddDustbin.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/sectional.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="46" column="16" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/react-chartist/dist/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="120" column="2" lean-forward="true" selection-start-line="120" selection-start-column="2" selection-end-line="120" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Dashboard.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="96" selection-start-line="96" selection-end-line="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/auth/Login.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" lean-forward="true" selection-start-line="1" selection-start-column="4" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="14" column="33" lean-forward="true" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/vehicles/GenerateRoutes.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/api/requests.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="49" column="73" lean-forward="true" selection-start-line="49" selection-start-column="73" selection-end-line="49" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/dustbin/DustbinStatus.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="986">
+          <caret line="66" column="95" selection-start-line="66" selection-start-column="95" selection-end-line="66" selection-end-column="95" />
           <folding>
             <element signature="e#0#37#0" expanded="true" />
-            <element signature="e#275#316#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/dustbin/AddDustbin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1241">
+          <caret line="81" column="29" selection-start-line="81" selection-start-column="29" selection-end-line="81" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/auth/Signup.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+        <state relative-caret-position="136">
+          <caret line="61" column="46" lean-forward="true" selection-start-line="61" selection-start-column="46" selection-end-line="61" selection-end-column="46" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
@@ -699,45 +799,93 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/auth/Login.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1343">
-          <caret line="88" column="24" selection-start-line="88" selection-start-column="24" selection-end-line="88" selection-end-column="24" />
+        <state relative-caret-position="126">
+          <caret line="60" column="53" lean-forward="true" selection-start-line="60" selection-start-column="40" selection-end-line="60" selection-end-column="53" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/api/EndPoints.js">
+    <entry file="file://$PROJECT_DIR$/src/assets/scss/core/variables/_bootstrap-material-design.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="17" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="17" />
+        <state relative-caret-position="371">
+          <caret line="158" column="19" selection-start-line="158" selection-start-column="19" selection-end-line="158" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
+    <entry file="file://$PROJECT_DIR$/src/components/Dashboard.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="17" column="51" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/dustbin/DustbinList.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="64" column="10" selection-start-line="64" selection-start-column="10" selection-end-line="64" selection-end-column="10" />
+        <state relative-caret-position="116">
+          <caret line="132" column="40" selection-start-line="132" selection-start-column="40" selection-end-line="132" selection-end-column="40" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/creativeTim/components/GridItem.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+          <folding>
+            <element signature="e#59#120#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/dustbin/DustbinList.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/dustbin/Dustbin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="2" lean-forward="true" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/vehicles/GenerateRoutes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/vehicles/Vehicle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="14" selection-start-column="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/api/EndPoints.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="45" selection-start-line="27" selection-start-column="45" selection-end-line="27" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Home.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1003">
-          <caret line="70" column="40" selection-start-line="70" selection-start-column="40" selection-end-line="70" selection-end-column="40" />
+        <state relative-caret-position="1139">
+          <caret line="79" column="102" selection-start-line="79" selection-start-column="102" selection-end-line="79" selection-end-column="102" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/dustbin/DustbinList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
           </folding>
@@ -746,8 +894,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/dustbin/DustbinStatus.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="62" column="28" lean-forward="true" selection-start-line="62" selection-start-column="28" selection-end-line="62" selection-end-column="28" />
+        <state relative-caret-position="1700">
+          <caret line="106" column="18" selection-start-line="55" selection-start-column="12" selection-end-line="106" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/vehicles/VehicleComponent.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/@types/react/index.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="1407" column="8" selection-start-line="1407" selection-start-column="8" selection-end-line="1407" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/vehicles/VehicleInfo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="70" column="53" selection-start-line="70" selection-start-column="53" selection-end-line="70" selection-end-column="53" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
           </folding>

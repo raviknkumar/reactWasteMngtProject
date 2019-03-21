@@ -1,0 +1,4 @@
+.feature{
+    display: flex;
+    flex-direction: column;
+}

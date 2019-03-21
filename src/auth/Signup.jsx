@@ -30,41 +30,37 @@ function Signup(props) {
         <div>
             <Nav/>
             <div className="white container vertical-center horizontal-center">
-                <h4 center style={{fontFamily: "Acme",color:"blue"}}>Don't Have An Account, Create One</h4>
+                <h4 className={"center"} style={{fontFamily: "Acme",color:"blue"}}>Don't Have An Account, Create One</h4>
 
                 <Form className={"form"}>
                     <div className="input-field col s6">
                         <ErrorMessage name="email" component="div" className="red-text center"/>
                         <i className="material-icons prefix">email</i>
-                        <Field id="form_email" name="email" type="email" className="autocomplete"/>
-                        <label htmlFor="form_email">Email</label>
+                        <Field id="form_email" name="email" placeholder="Email" type="email" className="autocomplete"/>
                     </div>
                     <div className="row" style={{marginLeft: "5px"}}>
                         <div className="input-field col s6 m6">
                             <ErrorMessage name="first_name" component="div" className="red-text center"/>
                             <i className="material-icons prefix">person</i>
-                            <Field id="form_first_name" name="first_name" type="text"/>
-                            <label htmlFor="form_first_name">First Name</label>
+                            <Field id="form_first_name" placeholder="First name" name="first_name" type="text"/>
                         </div>
                         <div className="input-field col s5 m6">
                             <ErrorMessage name="last_name" component="div" className="red-text center"/>
                             <i className="material-icons prefix">person</i>
-                            <Field placeHolder="Last Name" id="form_last_name" name="last_name" type="text"/>
+                            <Field placeholder="Last Name" id="form_last_name" placeholder="Last name" name="last_name" type="text"/>
                         </div>
                     </div>
                     <div className="input-field col s6">
                         <ErrorMessage name="password" component="div" className="red-text center"/>
                         <i className="material-icons prefix">lock</i>
-                        <Field id="form_password" name="password" type="password"/>
-                        <label htmlFor="form_password">Password</label>
+                        <Field id="form_password" name="password" placeholder="Password" type="password"/>
                     </div>
                     <div className="input-field col s6">
                         <i className="material-icons prefix">lock_outline</i>
-                        <Field id="form_confirm_password" name="confirm_password" type="password"/>
-                        <label htmlFor="form_confirm_password">Confirm Password</label>
+                        <Field id="form_confirm_password" name="confirm_password" placeholder="Conform Password"  type="password"/>
                     </div>
                     <div className={"center"}>
-                        <Button size="small" className="roundedSubmit" disabled={isSubmitting}>
+                        <Button size="small" type="submit" className="roundedSubmit" disabled={isSubmitting}>
                             <i className="material-icons right">send</i> Sign Up
                         </Button>
                     </div>
@@ -119,7 +115,7 @@ const formikApp = withFormik({
                         signUp(user);
                         resetForm(); //data succesfully submitted
                         localStorage.setItem("userName",values.email);
-                        values.history.push('/home');
+                        values.history.push('/home/index');
                     }
                 });
             }

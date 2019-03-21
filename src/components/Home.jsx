@@ -1,15 +1,16 @@
 import React, {Component} from 'react'
-import {BrowserRouter, Route, withRouter, Switch, Router} from 'react-router-dom'
+import { Route, withRouter} from 'react-router-dom'
 import MetisMenu from 'react-metismenu'
 import './Home.css'
 
 import CustomDropDown from './CustomDropDown'
-import Login from "../auth/Login";
 import Dashboard from "./Dashboard";
 import GenerateRoutes from "./vehicles/GenerateRoutes";
 import DustbinStatus from "./dustbin/DustbinStatus";
 import {signUpUrl} from "../api/EndPoints";
 import AddDustbin from "./dustbin/AddDustbin";
+import Main from "./Main";
+import VehicleInfo from "./vehicles/VehicleInfo";
 
 class Home extends Component{
 
@@ -22,7 +23,7 @@ class Home extends Component{
                 {
                     icon: 'fas fa-home',
                     label: 'Home',
-                    to: '/home',
+                    to: '/home/index',
                 },
                 {
                     icon: 'fas fa-tachometer-alt',
@@ -72,9 +73,11 @@ class Home extends Component{
                             </div>
                             <div style={{marginTop:"6%"}}>
                             <Route path={`${this.match.path}/dashboard`} exact component={Dashboard}/>
+                            <Route path={`${this.match.path}/index`} exact component={Main}/>
                             <Route path={`${this.match.path}/generateRoutes`} exact component={GenerateRoutes}/>
                             <Route path={`${this.match.path}/dustbin/add`} exact component={AddDustbin}/>
                             <Route path={`${this.match.path}/dustbin/status`} exact component={DustbinStatus}/>
+                            <Route path={`${this.match.path}/viewRoutes`} exact component={VehicleInfo}/>
                             </div>
                     </div>
                 </div>
